@@ -1,0 +1,47 @@
+body{
+	background-color:black;
+	background-image:url('images1/bg.jpg');
+	background-repeat:repeat;
+}
+
+
+
+div.top-menu{
+	background-image:url('images1/pic-menu.jpg');
+	background-repeat:no-repeat;
+	width:800px;
+	height:150px;
+	margin-left:77px;
+}
+
+div.container div.top-menu menu{
+	list-style-type:none;
+}
+
+div.top-menu menu ul li{
+	
+
+}
+
+li.home-page{
+	width:90px;
+	margin-left:30px;
+	text-align:center;
+}
+div.top-menu menu ul li.home-page a{
+
+	margin-top:6px;
+	white-space:nowrap;
+}
+
+a.margin{
+	margin-left:15px;
+}
+
+div.top-menu menu ul li a{
+	text-decoration:none;
+	font-family:W_basmeh;
+	color:white;
+	font-size:20px;
+	padding:7px;
+}
