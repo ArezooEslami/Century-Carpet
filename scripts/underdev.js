@@ -42,14 +42,14 @@ $(function(){
 
 $(function(){
 	$('.backimg1 > div').fadeLoop({
-		duration : 1500,
+		duration : 1600,
 		delay : 2000
 	});
 });
 
 $(function(){
 	$('.backimg2 > div').fadeLoop({
-		duration : 1500,
+		duration : 1700,
 		delay : 2000
 	});
 });
