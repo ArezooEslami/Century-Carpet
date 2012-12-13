@@ -9,29 +9,36 @@
 </head>
 
 <body>
+
+	<audio style="float:right; display:none;" width="100" height="50" controls autoplay="autoplay" >
+		<source src="images/Yanni.mp3" type="audio/mpeg" />
+		<source src="images/Yanni.ogg" type="audio/ogg" />
+
+		<embed width="100" height="50" src="images/Yanni.mp3" ></embed>
+	</audio>
+	
 	<div class="container">
-		<div class="left-menu">
+		<menu class="left-menu">
 			<div>
 			<div class="logo"><img src="images1/logo.png" /></div>
-			<menu>
+			
 				<ul>
 					<li class="list"><a href="#">صفحه اول</a></li>
 					<li class="list"><a href="portfolio.html">درباره ما</a>
-						<!--<menu>
+						<menu>
 								<li><a href="gallery-flooring.html">معرفی مدیران</a></li>
 								<li><a href="gallery-wallpaper.html">ناریخچه</a></li>
 								<li><a href="gallery-wallpaper.html">معرفی شرکت های گروه</a></li>
 								<li><a href="gallery-wallpaper.html">نوآوری ها</a></li>
 								<li><a href="gallery-wallpaper.html">گواهینامه</a></li>
-						</menu>-->
+						</menu>
 					</li>
-					<li class="list"><a href="#">گالری</a></li>
+					<li class="list"><a href="gallery.html">گالری</a></li>
 					<li class="list"><a href="#">مراکز فروش</a></li>
 					<li class="list"><a href="#">تماس با ما</a></li>
 				</ul>
-			</menu>
 			<img class="gold" src="images1/gold.png" /></div>
-		</div>
+		</menu>>
 		<div class="noise"></div>
 		<div class="backimg" style="background-image:url('images1/pic1.jpg');"></div>
 		
@@ -44,7 +51,9 @@
 			</section>
 		<div class="noise"></div>
 	</div>
+	
 	<script type="text/javascript"> document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>'); </script>
 	<script type="text/javascript" src="scripts/underdev.js"></script>
+	
 </body>
 </html>
