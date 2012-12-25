@@ -11,12 +11,12 @@
 }
 div.info{
 	font-family: 'Nazanin', Arial, sans-serif;
-	font-size:15px;
+	font-size:16px;
 	-webkit-font-smoothing : antialiased;
 
 }
 
-@font-face
+
 
 body{
 	background-color:black;
@@ -54,6 +54,7 @@ menu.topmenu{
 	position:fixed;
 	opacity:0.85;
 	float:left;
+	z-index:100;
 	
 	-webkit-transition:top 800ms;
 	-moz-transition: top 800ms;
@@ -92,18 +93,23 @@ menu.topmenu li li{
 	float:none;
 	background:black;
 	border:none;
-	border-top:1px solid white;
+	border-top:1px solid #999;
 	
+	
+}
+menu.topmenu li li.pad{
+	padding:10px 0 10px 0;
 }
 
 menu.topmenu li li:last-child{
-	padding-bottom:20px;
+	padding-bottom:10px;
 	padding-top:10px;
 	
 }
 
 menu.topmenu li li:first-child{
 	border-top:none;
+	padding-bottom:5px;
 	
 }
 	
@@ -181,6 +187,7 @@ div.info p{
 	color:white;
 	opacity:1;
 	line-height:120%;
+	
 
 }
 div.gallery{
@@ -204,9 +211,12 @@ div.gallery img.about{
 	transition:all 300ms;  
 	
 }
-div.gallery img{
-	opacity:0.50;
-	z-index:-1;
+div.gallery img,video{
+	opacity:0.99;
+	margin-top:30px;
+	margin-left:50px;
+	border-radius:10px;
+	border:7px solid #CCC;
 	
 	-webkit-transition: all 300ms;
 	-moz-transition: all 300ms;
@@ -228,4 +238,20 @@ div.gallery img:hover{
 
 img.manegment{
 	opacity:0.95;
+}
+
+/*----------------contact----------*/
+form input,textarea.form{
+	display:block;
+	background-color:#1b1b1b;
+	border-radius:2px;
+	border: 1px solid #666666;
+	opacity:0.75;
+	color:white;
+
+}
+
+input.btom{
+	margin-top:10px;
+	float:left;
 }
