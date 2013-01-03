@@ -16,7 +16,7 @@ if($emailSent)
 {
 	die('<script type="text/javascript">
 			alert ("پیغام شما با موفقیت ارسال شد")
-			window.location = "index.html"
+			window.location = "contact.html"
 			</script> ');
 }
 ?>
