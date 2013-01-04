@@ -80,6 +80,22 @@ div.info{
 
 }
 
+@font-face {
+	font-family: 'Basmeh';
+	src: url('fonts/W_basmeh.eot');
+	src: url('fonts/W_basmeh.eot?#iefix') format('embedded-opentype'),
+	url('fonts/W_basmeh.woff') format('woff'),
+	url('fonts/W_basmeh.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+menu.topmenu{
+	font-family: 'Basmeh', Arial, sans-serif;
+	font-size:16px;
+	-webkit-font-smoothing : antialiased;
+}
 
 
 body{
@@ -210,7 +226,8 @@ menu.topmenu li a{
 	text-transform:capitalize;
 	white-space:nowrap;
 	opacity:0.45;
-	font-family:W_basmeh;
+	
+	
 	
 }
 
@@ -343,4 +360,14 @@ form input,textarea.form{
 input.btom{
 	margin-top:10px;
 	float:left;
+}
+/*----------------contact----------*/
+
+div.job{
+	width:500px;
+	background-color:black;
+	opacity:0.60;
+	height:1000px;
+	margin-left:400px;
+	position:fixed;
 }
