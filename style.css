@@ -73,7 +73,7 @@ footer a:hover{
 	font-style: normal;
 
 }
-div.info{
+div{
 	font-family: 'Nazanin', Arial, sans-serif;
 	font-size:16px;
 	-webkit-font-smoothing : antialiased;
@@ -97,11 +97,55 @@ menu.topmenu{
 	-webkit-font-smoothing : antialiased;
 }
 
+/*---------------- index ------------------*/
 
-body{
-	background-color:black;
+img.name{
+	color:white;
+	margin:200px 0 0 365px;
+	
+}
+img.img-p1{
+	margin:-18px 375px;
+	opacity:0.80;
 }
 
+div.pages1{
+	margin-left:380px;
+	margin-top:20px;
+}
+
+div.pages1 a{
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+	font-size:18px;
+	opacity:0.60;
+	letter-spacing: 1px;
+	text-transform:capitalize;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	padding:0 20px 0 20px;
+	
+	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition:all 600ms;  
+	
+}
+
+div.pages1 a:hover{
+	cursor:pointer;
+	opacity:1;
+	
+	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition:all 600ms;  
+}
+
+
+/*---------------- index ------------------*/
 
 section.backimg div{
 	position:fixed;
@@ -229,6 +273,7 @@ menu.topmenu li a{
 	
 	
 	
+	
 }
 
 menu.topmenu li a.opasity{
@@ -303,7 +348,7 @@ div.gallery img.about{
 	transition:all 300ms;  
 	
 }
-div.gallery img,video{
+div.gallery img{
 	opacity:0.99;
 	margin-top:30px;
 	margin-left:50px;
@@ -326,6 +371,14 @@ div.gallery img:hover{
 	-ms-transition: all 600ms;
 	-o-transition: all 600ms;
 	transition:all 600ms;  
+}
+
+div.gallery video{
+	opacity:0.99;
+	margin-top:50px;
+	margin-left:20px;
+	border-radius:7px;
+	border:7px solid #CCC;
 }
 
 /*-----------------history page------------*/
@@ -360,6 +413,45 @@ form input,textarea.form{
 input.btom{
 	margin-top:10px;
 	float:left;
+}
+
+iframe.map{
+	margin-top:70px;
+	margin-left:30px;
+	opacity:0.70;
+	
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition:all 300ms;  
+}
+
+iframe.map:hover{
+	opacity:0.99;
+	
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition:all 300ms;  
+}
+/*----------------job----------*/
+
+form input,textarea.form-job{
+	display:block;
+	background-color:#1b1b1b;
+	border-radius:2px;
+	border: 1px solid #666666;
+	opacity:0.75;
+	color:white;
+	margin-left:35px;
+	margin-bottom:10px;
+	
+}
+
+form label{
+	margin-bottom:10px;
 }
 /*----------------contact----------*/
 
