@@ -97,6 +97,82 @@ menu.topmenu{
 	-webkit-font-smoothing : antialiased;
 }
 
+/*---------------- gallery baner ------------------*/
+div.slide{
+	margin   : 100px 0 0 400px;
+}
+div.slide p{
+	color:white;
+	text-align:center;
+	margin-top:30px;
+}
+	
+div.accslides {
+	width    : 600px;
+	padding:10px 0 10px 0;
+	
+	overflow : hidden;
+	border:7px solid #CCC;
+	border-radius:10px;
+}
+
+div.accslides .train{
+	width : 1000px;
+}
+
+div.accslides .train > div {
+	float    : left;
+	width    : 100px;
+	overflow : hidden;
+}
+
+div.accslides .train > div:last-child {
+	padding-right : 200px;
+}
+
+div.accslides .train > div > img {
+	display: block;
+}
+
+
+/* Acc Slide css animation (no js)
+-------------------------------------------------- */
+
+div.accslides .train > div {
+	-webkit-transition : width 700ms; /* u can move to line 21 */
+}
+
+div.accslides:hover .train > div {
+	width    : 50px;
+}
+
+div.accslides .train > div:hover {
+	width    : 350px;
+}
+/*----------------box-gallery ------------------*/
+
+div.box-gallery{
+	width:550px;
+	margin-left:350px;
+	background-color:black;
+	min-height:800px;
+	padding:10px;
+	margin-top:-18px;
+}
+
+div.div1{
+	margin:20px 0 0 35px;
+}
+
+div.box-gallery img{
+	margin-left:20px;
+	opacity:1;
+}
+
+div.info-c{
+	margin-top:50px;
+	float:right;
+}
 /*---------------- index ------------------*/
 
 img.name{
