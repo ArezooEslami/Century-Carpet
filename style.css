@@ -75,7 +75,7 @@ footer a:hover{
 }
 div{
 	font-family: 'Nazanin', Arial, sans-serif;
-	font-size:16px;
+	
 	-webkit-font-smoothing : antialiased;
 
 }
@@ -167,12 +167,24 @@ div.div1{
 div.box-gallery img{
 	margin-left:20px;
 	opacity:1;
+	border:5px solid #ccc;
+	border-radius:3px;
 }
 
 div.info-c{
+	padding:10px;
 	margin-top:50px;
+	color:white;
 	float:right;
+	direction:rtl;
 }
+
+div.info-c p{
+	text-align:right;
+	line-height:130%;
+	font-size:18px;
+}
+
 /*---------------- index ------------------*/
 
 img.name{
@@ -398,6 +410,7 @@ div.info p{
 	color:white;
 	opacity:1;
 	line-height:120%;
+	font-size:18px;
 	
 
 }
