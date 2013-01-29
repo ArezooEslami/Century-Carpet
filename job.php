@@ -12,7 +12,7 @@ $Message = $_POST['msg']; //inja ham esme filde peygham ke yek textarea e
 $hasError = true;
 if(isset($hasError)) 
 {
-              $Body = "Name: $Name \n\nActivities: $activities \n\nData: $data\n\nField= $field\n\nTell= $num\n\nEmail: $Email \n\nMessage:\n $Message";
+              $Body = "Name: $Name \n\nActivities: $Activities \n\nData: $Data\n\nField= $field\n\nTell= $Tell\n\nEmail: $Email \n\nMessage:\n $Message";
               $Headers = 'From: Website <'.$EmailTo.'>' . "\r\n" . 'Reply-To: ' . $Email;
               mail($EmailTo, $Subject, $Body, $Headers);
               $emailSent = true;

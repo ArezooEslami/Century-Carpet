@@ -3,6 +3,18 @@ body{
 	background-color:black;
 }
 
+iframe.index{
+	position:fixed;
+	width:100%;
+	min-height:100%;
+	border:none;
+}
+iframe.audio{
+	width:0;
+	height:0;
+	border:none;
+}
+
 header {
 	position :fixed;
 	top      :0;
